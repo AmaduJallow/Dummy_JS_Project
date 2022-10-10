@@ -10,7 +10,7 @@ class Circle{
     #shower(){
         return (this.#x_value * this.#y_value)
     }
-    draw(){ 
+    draw(){
         console.log(this.#shower() * this.radius);
 
     }
@@ -24,3 +24,4 @@ cir.draw();
 Circle.work();
 
 
+module.exports = Circle;
