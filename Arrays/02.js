@@ -20,3 +20,12 @@ let courses = [
     }
     
 ]
+value = courses.find((course) =>{
+    if (course.id == 1) {
+        return true;
+    }
+    else {
+        return false;
+    }
+});
+ console.log(value);
