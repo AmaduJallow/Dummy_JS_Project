@@ -29,15 +29,14 @@ let cir = createCircle(2, 5, 7);
 cir.draw();
 
 // !Constructor Function for creating an object
-function Circle(radius, x_value = 1, y_value = 1) { 
+function Circle(radius, x_value = 1, y_value = 1) {
     this.radius = radius;
     this.x_value = x_value;
     this.y_value = y_value;
     this.draw = function () {
         console.log("drawn");
     }
-
-};
+}
 
 cir = new Circle(4);
 cir.draw();
