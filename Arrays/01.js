@@ -7,4 +7,3 @@ console.log(numbers);
 
 numbers.splice(3, 0, "a", "b");
 console.log(numbers);
-

@@ -16,7 +16,7 @@ class Circle{
     }
     static work(){
         console.log(`OOOweee!`);
-    }
+    } 
 
 }
 let cir = new Circle(34,4,3);
