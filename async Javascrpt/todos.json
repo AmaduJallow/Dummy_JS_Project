@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Valid JSON",
+        "type": "object",
+        "value": 2
+
+    },
+    {
+        "name": "Invalid JSON",
+        "type": "object 1",
+        "value": 3
+    }
+
+]
